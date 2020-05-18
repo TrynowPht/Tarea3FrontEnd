@@ -1,0 +1,28 @@
+<div class="card border-dark mb-3">
+    <div class="card-header">Motores</div>
+    <div class="card-body text-black">
+        <h5 class="card-title">Lista completa de Motores</h5>
+        <table class="table table-sm table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Modelo</th>
+                    <th>Marca</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let m of motores">
+                    <th>{{m.IDMotor}}</th>
+                    <th>{{m.modelo}}</th>
+                    <th>{{m.marca}}</th>
+                    <th>{{m.precio}}</th>
+                    <div class="form-group">
+                       
+                    </div>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
